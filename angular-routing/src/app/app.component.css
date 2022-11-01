@@ -1,0 +1,35 @@
+header
+{
+    border: 1px solid gray;
+    width:auto;
+    height:auto;
+    margin:10px;
+    padding:10px;
+    background-color:white;
+text-align:center;
+}
+header h1
+{
+    color:black;
+}
+
+#section1
+{
+border: 1px solid gray;
+    width:auto;
+    height:450px;
+    margin:10px;
+    padding:10px;
+background-color:white;
+}
+
+footer
+{
+border: 1px solid gray;
+    width:auto;
+    height:40px;
+    margin:10px;
+    padding:10px;
+background-color:gray;
+text-align:center;
+}

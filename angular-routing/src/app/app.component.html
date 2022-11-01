@@ -1,0 +1,44 @@
+<head>
+  <style>
+ nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+  background-color: red;
+}
+  </style>
+  </head>
+
+<body>
+  <header>
+  <h1>Welcome to Angular Routing Demo</h1>
+</header>
+  <nav>
+    <ul>
+        <li><a [routerLink]="'employee'">Employee</a></li>
+        <li><a [routerLink]="'employees'">Employees</a></li>
+    </ul>
+  </nav>
+  <section id="section1">
+    <router-outlet></router-outlet> <!--place holder-->
+    </section>
+    </body>
+
+
+
