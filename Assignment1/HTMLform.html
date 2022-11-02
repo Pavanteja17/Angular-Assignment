@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1> Company Registration Form</h1>
+</head>
+<body>
+<form>
+	<table>
+		<tr>
+			<td>
+				Name:
+			</td>
+			<td>
+				<input type="text"  pattern="[A-Z]*" required>
+			</td>
+		</tr>
+        <tr>
+            <td>
+				Age:
+			</td>
+			<td>
+                <input type="number" min="20" max="45">
+			</td>
+		</tr>
+        <tr>
+            <td>
+				Contact Number:
+			</td>
+			<td>
+				<input type="tel" id="phone" name="phone" required pattern="[6-9]{3}-[0-9]{3}-[0-9]{4}">
+			</td>
+        </tr>
+        <tr>
+			<td>
+				Email:
+			</td>
+			<td>
+				<input type="email"  required>
+			</td>
+		</tr>
+        <tr>
+			<td>
+				Date of Birth:
+			</td>
+			<td>
+				<input type="date">
+			</td>
+		</tr>
+        <tr>
+			<td>
+				Website URL:
+			</td>
+			<td>
+				<input type="type">
+			</td>
+		</tr>
+	</table>
+    <button type="submit" value="Submit">Submit</button>
+</form> 
+</body>
+</html>
